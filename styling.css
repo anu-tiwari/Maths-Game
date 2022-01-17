@@ -3,7 +3,7 @@ html{
     background: radial-gradient(circle,#fff,rgb(225, 121, 121));
 }
 
-.container{
+#container{
     height: 400px;
     width: 550px;
     background-color: #9DD2EA;
