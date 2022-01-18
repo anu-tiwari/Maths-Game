@@ -75,7 +75,12 @@ function genQuestion()
     {
         if (i!=corOpt)
         {
-            document.getElementById("opt"+i).innerHTML = Math.round(Math.random()*100);
+            while(true)
+            {
+                document.getElementById("opt"+i).innerHTML = Math.round(Math.random()*100);
+                if (document.getElementById("opt"+i).innerHTML!=correctAns)
+                    break;
+            }
         }
     }
     setTimer();
