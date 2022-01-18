@@ -104,7 +104,6 @@ function opt3clicked()
     if (isPlaying==0)
         return;
     candidate = document.getElementById("opt3").innerHTML;
-    // window.alert(candidate+" clicked");
     check();
 }
 
@@ -113,13 +112,11 @@ function opt4clicked()
     if (isPlaying==0)
         return;
     candidate = document.getElementById("opt4").innerHTML;
-    // window.alert(candidate+" clicked");
     check();
 }
 
 function disCorrect()
 {
-    // window.alert("correct");
     document.getElementById("correct").style.display = 'inherit';
     var delay = setTimeout(function(){
         document.getElementById("correct").style.display = 'none';
@@ -128,7 +125,6 @@ function disCorrect()
 
 function disWrong()
 {
-    // window.alert("wrong");
     document.getElementById("try").style.display = 'inherit';
     var delay = setTimeout(function(){
         document.getElementById("try").style.display = 'none';
