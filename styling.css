@@ -10,7 +10,7 @@ html{
     background-color: #f4c1c1;
     margin: 200px auto;
     padding: 20px;
-    border-radius: 50px;
+    border-radius: 30px;
     box-shadow: 2px 2px 15px 0px #e3cdc9;
     position: relative;
 }
@@ -20,8 +20,8 @@ html{
     color: white;
     padding: 10px;
     position: absolute;
-    left: 590px;
-    border-radius: 30px;
+    left: 600px;
+    border-radius: 15px;
     width: 100px;
     height: 25px;
     text-align: center;
@@ -53,7 +53,7 @@ html{
     width: 500px;
     height: 200px;
     position: relative;
-    margin: 60px auto 10px auto;
+    margin: 50px auto 10px auto;
     border-radius: 20px;
     font-size: 100px;
     color: white;
@@ -70,7 +70,7 @@ html{
     width: 500px;
     margin: 20px auto 10px auto;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 15px;
     color: white;
     text-align: center;
     font-size: 20px;
@@ -93,8 +93,8 @@ html{
     height: 90px;
     float: left;
     margin-right: 33px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 15px 0px #4b040d;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px 0px #ba4757;
     text-align: center;
     font-size: 30px;
     padding-top: 23px;
@@ -105,7 +105,7 @@ html{
 
 .opt:hover{
     background-color: #4b040d;
-    box-shadow: 2px 2px 20px 5px #4b040d;
+    box-shadow: 2px 2px 10px 3px #4b040d;
     /* transform: translate(0px, -3px); */
     color: white;
     
@@ -116,4 +116,53 @@ html{
 }
 #opt4{
     margin-right: 0px;
+}
+
+#start{
+    box-sizing: border-box;
+    background-color: #f09ea9;
+    position: relative;
+    width: 130px;
+    height: 50px;
+    margin: 10px auto 10px auto;
+    padding: 13px;
+    border-radius: 10px;
+    color: #4b040d;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 1px 1px 7px 0px #ba4757;
+    transition: all 0.2s;
+    /* line-height: 0px; */
+    /* opacity: 0.5; */
+}
+
+#start:hover{
+    background-color: #4b040d;
+    box-shadow: 1px 1px 10px 3px #4b040d;
+    /* transform: translate(0px, -3px); */
+    color: white;
+}
+
+#start:active{
+    top: 4px;
+    box-shadow: 0px 0px #4b040d;
+}
+
+#time{
+    box-sizing: border-box;
+    background-color: #4b040d;
+    position: relative;
+    width: 230px;
+    height: 50px;
+    /* margin: 10px auto 10px auto; */
+    padding: 13px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    transition: all 0.2s;
+    bottom: 60px;
+    left: 470px;
+    /* line-height: 0px; */
+    /* opacity: 0.5; */
 }
