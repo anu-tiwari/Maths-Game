@@ -31,20 +31,33 @@ html{
 
 #correct{
     position: absolute;
-    left: 330px;
+    width: 100px;
+    height: 30px;
+    left: 300px;
+    top: 10px;
     color: white;
     padding: 11px;
     background-color: rgb(30, 149, 30);
     display: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 23px;
 }
 
 #try{
     position: absolute;
-    left: 315px;
+    width: 110px;
+    height: 30px;
+    left: 295px;
+    top: 10px;
     color: white;
     padding: 11px;
     background-color: rgb(165, 36, 36);
     display: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 23px;
+    /* visibility: hidden; */
 }
 
 #question{
@@ -132,6 +145,7 @@ html{
     font-size: 20px;
     box-shadow: 1px 1px 7px 0px #ba4757;
     transition: all 0.2s;
+    cursor: pointer;
     /* line-height: 0px; */
     /* opacity: 0.5; */
 }
@@ -183,4 +197,5 @@ html{
     padding: 20px;
     border-radius: 15px;
     box-shadow: 1px 1px 10px 3px #ba4757;
+    display: none;
 }
