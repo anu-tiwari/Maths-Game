@@ -163,6 +163,24 @@ html{
     transition: all 0.2s;
     bottom: 60px;
     left: 470px;
+    display: none;
     /* line-height: 0px; */
     /* opacity: 0.5; */
+}
+
+#over{
+    box-sizing: border-box;
+    height: 250px;
+    width: 530px;
+    background-color: #d26573;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 105px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 3px #ba4757;
 }
